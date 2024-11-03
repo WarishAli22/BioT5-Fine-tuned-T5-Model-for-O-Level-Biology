@@ -53,7 +53,7 @@ import torchvision
 
 inputs = "how is sucrose is produced from carbon dioxide in pea plants
 
-checkpoint = "./checkpoint-19614"
+checkpoint = "./checkpoint-19614" #modify to point to path of checkpoint in this repo
 finetuned_model = T5ForConditionalGeneration.from_pretrained(checkpoint)
 tokenizer = T5Tokenizer.from_pretrained(checkpoint)
 
